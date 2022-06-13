@@ -1,49 +1,115 @@
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 15rem;
-    margin-bottom: 5rem;
-}
-.sedans{
-    height: 22rem;
-    width: 15rem;
-    background-color: hsl(31, 77%, 52%);
-}
-.suvs{
-    height: 22rem;
-    width: 15rem;
-    background-color: hsl(184, 100%, 22%); 
-}
-.luxury{
-    height: 22rem;
-    width: 15rem;
-    background-color: hsl(179, 100%, 13%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*.row {
-    max-width: 114rem;
-    background-color: aliceblue;
-    margin: 0 auto; }
-    .row:not(:last-child) {
-      margin-bottom: 8rem; }
-    .row::after {
-      content: "";
-      display: table;
-      clear: both; }
-    .row [class^="col-"] {
-      float: left; }
-      .row [class^="col-"]:not(:last-child) {
-        margin-right: 6rem; }
-    .row .col-1-of-2 {
-      width: calc((100% - 6rem)/2); }
-    .row .col-1-of-3 {
-      width: calc((100% - (12rem))/3); }
-    .row .col-2-of-3 {
-      width: calc(2 * ((100% - 2 * 6rem)/3) + 6rem); }
-    .row .col-1-of-4 {
-      width: calc((100% - (18rem))/4); }
-    .row .col-2-of-4 {
-      width: calc(2 *((100% - (3 * 6rem)) / 4) + 6rem); }
-    .row .col-3-of-4 {
-      width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }*/
+body{
+  font-size: 15px;
+  font-family: [Lexend Deca];
+  font-weight: 400;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+}
+
+.sedans {
+  height: 25rem;
+  width: 17rem;
+  background-color: hsl(31, 77%, 52%);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header {
+  text-transform: uppercase;
+  font-family: [Big Shoulders Display];
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: hsl(0, 0%, 95%);
+}
+
+.paragraph {
+  margin-bottom: 4.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn-sedan{
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 3rem;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-sedan:active,
+.btn-sedan:hover {
+  border: 2px solid white;
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+}
+
+.suvs {
+  height: 25rem;
+  width: 17rem;
+  background-color: hsl(184, 100%, 22%);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+
+}
+.btn-suv{
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 3rem;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-suv:active,
+.btn-suv:hover {
+  border: 2px solid white;
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+}
+.luxury {
+  height: 25rem;
+  width: 17rem;
+  background-color: hsl(179, 100%, 13%);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.btn-luxury{
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 3rem;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-luxury:active,
+.btn-luxury:hover {
+  border: 2px solid white;
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+}

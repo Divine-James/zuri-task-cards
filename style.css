@@ -19,23 +19,12 @@ body{
     padding: 0 24px;
     background-color: hsla(184, 40%, 38%, 0.75);
 }
-.nav-menu{
-  display: flex;
-  justify-content: space-between;
-}
-.nav-item{
-  list-style: none;
-}
-.nav-item:not(:last-child){
-  margin-right: 5rem;
-}
 .navbar-link{
   text-decoration: none;
   color: hsl(0, 0%, 95%);
   cursor: pointer;
   font-size: 2rem;
-  font-weight: 700;
-  
+  font-weight: 400;
 }
 .row {
   display: flex;
@@ -46,18 +35,24 @@ body{
 }
 
 .sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.car{
   height: 25rem;
   width: 17rem;
-  background-color: hsl(31, 77%, 52%);
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
-
 .img {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
 .header {
   text-transform: uppercase;
   font-family: 'Nunito', sans-serif;
@@ -67,13 +62,11 @@ body{
   margin-bottom: 2rem;
   color: hsl(0, 0%, 95%);
 }
-
 .paragraph {
   margin-bottom: 4rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.btn-sedan{
-  color: hsl(31, 77%, 52%);
+.btn{
   background-color: hsl(0, 0%, 95%);
   padding: 1rem 3rem;
   border: none;
@@ -82,60 +75,18 @@ body{
   text-decoration: none;
   cursor: pointer;
 }
-
-.btn-sedan:active,
-.btn-sedan:hover {
-  border: 2px solid white;
-  color: hsl(0, 0%, 95%);
-  background-color: transparent;
-}
-
-.suvs {
-  height: 25rem;
-  width: 17rem;
-  background-color: hsl(184, 100%, 22%);
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-
+.btn-sedan{
+  color: hsl(31, 77%, 52%);
 }
 .btn-suv{
   color: hsl(184, 100%, 22%);
-  background-color: hsl(0, 0%, 95%);
-  padding: 1rem 3rem;
-  border: none;
-  border-radius: 3rem;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.btn-suv:active,
-.btn-suv:hover {
-  border: 2px solid white;
-  color: hsl(0, 0%, 95%);
-  background-color: transparent;
-}
-.luxury {
-  height: 25rem;
-  width: 17rem;
-  background-color: hsl(179, 100%, 13%);
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 .btn-luxury{
   color: hsl(179, 100%, 13%);
-  background-color: hsl(0, 0%, 95%);
-  padding: 1rem 3rem;
-  border: none;
-  border-radius: 3rem;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
 }
-
-.btn-luxury:active,
-.btn-luxury:hover {
-  border: 2px solid white;
+.btn:active,
+.btn:hover {
+  border: 2px solid hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
   background-color: transparent;
 }
@@ -148,15 +99,7 @@ body{
     flex-direction: column;
     margin: 0;
   }
-  .sedans {
-    margin: 0 auto;
-    width: 100vw;
-  }
-  .suvs{
-    margin: 0 auto;
-    width: 100vw;
-  }
-  .luxury{
+  .car {
     margin: 0 auto;
     width: 100vw;
   }

@@ -8,6 +8,23 @@
       background-color: rgb(4, 4, 58);
       padding: 12rem 50rem;
   }
+  .navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: hsla(184, 40%, 38%, 0.75);
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.navbar-link{
+  text-decoration: none;
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+}
   .grid{
     gap: .9rem;
     display: grid;

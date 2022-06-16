@@ -44,8 +44,8 @@ body{
   background-color: hsl(179, 100%, 13%);
 }
 .car{
-  height: 25rem;
-  width: 17rem;
+  height: 26rem;
+  width: 16.5rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
@@ -63,12 +63,12 @@ body{
   color: hsl(0, 0%, 95%);
 }
 .paragraph {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
 .btn{
   background-color: hsl(0, 0%, 95%);
-  padding: 1rem 3rem;
+  padding: 1rem 2.3rem;
   border: none;
   border-radius: 3rem;
   text-align: center;

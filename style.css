@@ -12,6 +12,7 @@ body{
   font-weight: 400;
   min-width: 325px;
 max-width: 1440px;
+background-color: hsl(0, 0%, 95%);
 }
 .navbar{
     min-height: 70px;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
 * {
   margin: 0;
@@ -6,23 +6,23 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-size: 15px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   min-width: 325px;
-max-width: 1440px;
-background-color: hsl(0, 0%, 95%);
+  max-width: 1440px;
+  background-color: hsl(0, 0%, 95%);
 }
-.navbar{
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-    background-color: hsla(184, 40%, 38%, 0.75);
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: hsla(184, 40%, 38%, 0.75);
 }
-.navbar-link{
+.navbar-link {
   text-decoration: none;
   color: hsl(0, 0%, 95%);
   cursor: pointer;
@@ -35,6 +35,7 @@ background-color: hsl(0, 0%, 95%);
   justify-content: center;
   margin-top: 7rem;
   margin-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 .sedans {
@@ -46,9 +47,9 @@ background-color: hsl(0, 0%, 95%);
 .luxury {
   background-color: hsl(179, 100%, 13%);
 }
-.car{
-  height: 26rem;
-  width: 16.5rem;
+.car {
+  height: 30rem;
+  width: 17rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
@@ -58,7 +59,7 @@ background-color: hsl(0, 0%, 95%);
 }
 .header {
   text-transform: uppercase;
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: "Big Shoulders Display", cursive;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -67,8 +68,9 @@ background-color: hsl(0, 0%, 95%);
 .paragraph {
   margin-bottom: 5rem;
   color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
 }
-.btn{
+.btn {
   background-color: hsl(0, 0%, 95%);
   padding: 1rem 2.3rem;
   border: none;
@@ -77,13 +79,13 @@ background-color: hsl(0, 0%, 95%);
   text-decoration: none;
   cursor: pointer;
 }
-.btn-sedan{
+.btn-sedan {
   color: hsl(31, 77%, 52%);
 }
-.btn-suv{
+.btn-suv {
   color: hsl(184, 100%, 22%);
 }
-.btn-luxury{
+.btn-luxury {
   color: hsl(179, 100%, 13%);
 }
 .btn:active,
@@ -92,11 +94,11 @@ background-color: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
   background-color: transparent;
 }
-@media (max-width:375px){
-  .nav-item:not(:last-child){
+@media (max-width: 375px) {
+  .nav-item:not(:last-child) {
     margin-right: 2rem;
   }
-  .row{
+  .row {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -106,11 +108,11 @@ background-color: hsl(0, 0%, 95%);
     width: 100vw;
   }
 }
-@media (max-width:745px){
-  .nav-item:not(:last-child){
+@media (max-width: 745px) {
+  .nav-item:not(:last-child) {
     margin-right: 2rem;
   }
-  .row{
+  .row {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -121,45 +123,45 @@ background-color: hsl(0, 0%, 95%);
   }
 }
 /* Grid page */
-.grid{
+.grid {
   gap: 10px;
   display: grid;
   width: 60rem;
   margin: 5rem 10rem;
 }
-.grid > div{
+.grid > div {
   text-align: center;
   border-radius: 8px;
   height: 200px;
   padding: 20px;
   grid-template-rows: repeat(4, 1fr 1fr 1fr 1fr 1fr 1fr);
 }
-.red{
+.red {
   background: red;
   grid-column: 1/4;
   grid-row: 1/5;
 }
-.yellow{
+.yellow {
   background: yellow;
   grid-column: 4/6;
   grid-row: 1/5;
 }
-.green{
+.green {
   background: green;
   grid-row: 5/7;
   grid-column: 1/3;
 }
-.blue{
+.blue {
   background: blue;
   grid-row: 5/6;
   grid-column: 3/6;
 }
-.sky-blue{
+.sky-blue {
   background: rgb(47, 47, 134);
   grid-column: 3/6;
 }
 
-.blue, .sky-blue{
+.blue,
+.sky-blue {
   height: unset !important;
 }
-
